@@ -13,7 +13,7 @@ const server = app.listen(3000);
 // socketio turns your server into a 'socket server'
 const io = socketio(server, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://stanniechatapp2025.onrender.com",
   },
 });
 
